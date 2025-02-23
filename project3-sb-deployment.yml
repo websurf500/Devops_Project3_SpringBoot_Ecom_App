@@ -9,10 +9,10 @@ spec:
     matchLabels:
       color: blue
   template:
-    metadata: null
-    name: SB-Ecom-App-Pods
-    labels:
-      color: blue
+    metadata: 
+      name: SB-Ecom-App-Pods
+      labels:
+        color: blue
   spec:
     containers:
       - name: SB-Ecom-App-Container
