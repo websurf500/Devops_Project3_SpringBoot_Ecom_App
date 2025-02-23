@@ -13,8 +13,8 @@ spec:
       name: SB-Ecom-App-Pods
       labels:
         color: blue
-  spec:
-    containers:
+    spec:
+      containers:
       - name: SB-Ecom-App-Container
         image: websurf500/sb-ecom-app
         ports:
