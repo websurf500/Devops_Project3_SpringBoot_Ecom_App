@@ -11,7 +11,8 @@ spec:
   template:
     metadata: null
     name: SB-Ecom-App-Pods
-    color: blue
+    labels:
+      color: blue
   spec:
     containers:
       - name: SB-Ecom-App-Container
